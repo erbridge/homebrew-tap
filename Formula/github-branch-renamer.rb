@@ -1,8 +1,8 @@
 class GithubBranchRenamer < Formula
   desc "Rename the master branch in many repositories at once"
   homepage "https://github.com/erbridge/github-branch-renamer"
-  url "https://github.com/erbridge/github-branch-renamer/archive/v0.2.2.tar.gz"
-  sha256 "a425759a0c823f1353ca7744c8601b3e447ab67c6c99a74a505a6145caf4401b"
+  url "https://github.com/erbridge/github-branch-renamer/archive/v0.2.3.tar.gz"
+  sha256 "bf1c5741ff61e57df590b118bfa540e5b8642766d6ddabe4a072cc53095c341e"
 
   def install
     bin.install "gbr"
